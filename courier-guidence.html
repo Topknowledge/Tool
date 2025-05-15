@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="10वी/12वी नंतर करिअर मार्गदर्शन मराठीमध्ये">
+  <meta name="keywords" content="करिअर मार्गदर्शन, 10वी नंतर, 12वी नंतर, मराठी, करिअर, शिक्षण, मार्गदर्शन">
+  <meta name="author" content="CareerGuidance Marathi">
+  <title>10वी / 12वी नंतर करिअर मार्गदर्शन (मराठी)</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <!-- Google Adsense Integration -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</head>
+<body>
+  <header>
+    <h1>10वी / 12वी नंतर करिअर मार्गदर्शन</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">मुख्यपृष्ठ</a></li>
+        <li><a href="about.html">आमच्याबद्दल</a></li>
+        <li><a href="contact.html">संपर्क करा</a></li>
+      </ul>
+    </nav>
+  </header>  <!-- Adsense Banner Top -->  <div class="ad-banner">
+    <!-- Insert your Adsense Unit ID below -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="XXXXXXXXXX"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>  <main>
+    <section class="intro">
+      <h2>तुमच्या उज्ज्वल भविष्यासाठी योग्य करिअर निवडा</h2>
+      <p>१०वी किंवा १२वी नंतर कोणते करिअर निवडावे? विज्ञान, कला, वाणिज्य, ITI, डिप्लोमा, डिग्री याबद्दल सविस्तर मार्गदर्शन मिळवा.</p>
+    </section><section id="career-options">
+  <h2>करिअर पर्याय निवडा</h2>
+  <select id="stream-selector" onchange="showCareerOptions()">
+    <option value="">-- प्रवाह निवडा --</option>
+    <option value="science">विज्ञान</option>
+    <option value="commerce">वाणिज्य</option>
+    <option value="arts">कला</option>
+    <option value="iti">ITI / कौशल्य शिक्षण</option>
+    <option value="diploma">डिप्लोमा कोर्सेस</option>
+  </select>
+
+  <div id="career-results"></div>
+</section>
+
+<!-- Adsense Mid Article -->
+<div class="ad-mid">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+       data-ad-slot="XXXXXXXXXX"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<section class="tools">
+  <h2>नवीन टूल्स व मार्गदर्शक</h2>
+  <ul>
+    <li><a href="#">करिअर Aptitude Test</a></li>
+    <li><a href="#">Top Colleges Finder</a></li>
+    <li><a href="#">Scholarship माहिती</a></li>
+    <li><a href="#">FAQs</a></li>
+  </ul>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 10वी/12वी नंतर करिअर मार्गदर्शन | सर्व हक्क राखीव.</p>
+  </footer>
+</body>
+</html><!-- script.js --><script>
+function showCareerOptions() {
+  const selector = document.getElementById('stream-selector');
+  const results = document.getElementById('career-results');
+  const stream = selector.value;
+
+  const data = {
+    science: ["इंजिनिअरिंग", "वैद्यकीय", "फार्मसी", "BSc", "अॅग्रीकल्चर"],
+    commerce: ["B.Com", "CA", "CS", "BBA", "MBA"],
+    arts: ["BA", "MA", "UPSC/MPSC", "शिक्षण", "समाजकार्य"],
+    iti: ["इलेक्ट्रिशियन", "फिटर", "वेल्डर", "कॉम्प्युटर टेक्निशियन"],
+    diploma: ["सिव्हिल", "मेकॅनिकल", "कॉम्प्युटर", "ईलेक्ट्रिकल"]
+  };
+
+  if (stream && data[stream]) {
+    results.innerHTML = '<ul>' + data[stream].map(c => `<li>${c}</li>`).join('') + '</ul>';
+  } else {
+    results.innerHTML = '';
+  }
+}
+</script><!-- styles.css --><style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+.ad-banner, .ad-mid {
+  margin: 1rem auto;
+  text-align: center;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+</style>
